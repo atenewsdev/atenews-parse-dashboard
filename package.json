@@ -4,12 +4,13 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js --config ./parse-dashboard-config.json --allowInsecureHTTP=1",
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "parse-dashboard": "^2.1.0"
   }
 }
