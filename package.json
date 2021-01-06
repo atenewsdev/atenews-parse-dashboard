@@ -1,7 +1,7 @@
 {
   "name": "atenews-parse-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js --config ./parse-dashboard-config.json --allowInsecureHTTP=1",
