@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "serverURL": "https://atenews-parse.herokuapp.com/parse",
+      "appId": "atenews",
+      "masterKey": "0oETbxjUirR2S2n5XF7gJ7CZ2AH1wKwt",
+      "appName": "Atenews"
+    }
+  ],
+  "users": [
+    {
+      "user":"admin",
+      "pass":"gagUsNot60!"
+    }
+  ]
+}
