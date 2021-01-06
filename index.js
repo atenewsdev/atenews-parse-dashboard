@@ -1,15 +1,22 @@
 var express = require('express');
 var ParseDashboard = require('parse-dashboard');
+require('dotenv').config();
 
 var dashboard = new ParseDashboard({
   apps: [
     {
       serverURL: "https://atenews-parse.herokuapp.com/parse",
       appId: "atenews",
-      masterKey: "0oETbxjUirR2S2n5XF7gJ7CZ2AH1wKwt",
+      masterKey: process.env.MASTER_KEY,
       appName: "Atenews"
     }
   ],
+  users: [
+    {
+      user: process.env.USERNAME,
+      pass: process.env.PASSWORD
+    }
+  ]
 });
 
 var app = express();
